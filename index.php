@@ -17,7 +17,7 @@ require_once 'form/phpmailer/PHPMailerAutoload.php';?>
     <!--==================================================================================================================================-->
 <!--=============MID CATALOG START=============-->
     <div class="catalog">
-        <a href="category" class="btn-catalog btn" style="background: #00a046;color: #ffffff; font-size: 23px;">Каталог товаров</a>
+        <a href="category" class="btn-catalog btn" style="background: #00a046;color: #ffffff; font-size: 23px;">Каталог товароsв</a>
     <?php
         if(isset($_SESSION['user_id']) or isset($_SESSION['partner_id'])){
             echo '        
@@ -27,7 +27,7 @@ require_once 'form/phpmailer/PHPMailerAutoload.php';?>
             echo '
             <div class="sign">
                <p>Продавайте свои товары вместе с нами</p>
-               <a href="" class="auth-catalog btn btn-info" style="background: #3e77aa;" data-toggle="modal" data-target="#myModal">Войти в кабинет</a>
+               <a href="" class="auth-catalog btn btn-info" style="background: #3e77aa;" data-toggle="modal" data-target="#myModal">Войтии в кабинет</a>
                <br>
                <a href="#" style="font-size: 16px;color: rgb(62, 119, 170);" data-toggle="modal" data-target="#myModalReg">Регистрация</a>
             </div>

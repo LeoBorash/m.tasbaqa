@@ -15,7 +15,7 @@ include 'includes/db.php';?>
     </style>
 </head>
 <body>
-<h4 class="text-center" style="background: #ffc107; padding-bottom: 5px">Личныйd кабинет</h4>
+<h4 class="text-center" style="background: #ffc107; padding-bottom: 5px">Личный кабинет</h4>
 
     <div  class="tabcontent2">
         <?php
