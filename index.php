@@ -17,7 +17,7 @@ require_once 'form/phpmailer/PHPMailerAutoload.php';?>
     <!--==================================================================================================================================-->
 <!--=============MID CATALOG START=============-->
     <div class="catalog">
-        <a href="category" class="btn-catalog btn" style="background: #00a046;color: #ffffff; font-size: 23px;">Каталогdf товаров</a>
+        <a href="category" class="btn-catalog btn" style="background: #00a046;color: #ffffff; font-size: 23px;">Каталогәә товаров</a>
     <?php
         if(isset($_SESSION['user_id']) or isset($_SESSION['partner_id'])){
             echo '        
