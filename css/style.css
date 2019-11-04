@@ -1,0 +1,301 @@
+@import url('fonts.css');
+.main-block{
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.top-header{
+    background: #00a046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*========================================================================================================================*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background: #122538;
+}
+.sidenav a {
+    padding: 3px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: #31937c;
+    text-decoration: none;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 28px;
+    margin-left: 50px;
+}
+.navba{
+    padding-top: 5px;
+    font-size:23px;
+    cursor:pointer;
+    color: #ffffff;
+    margin-left: 15px;
+    display: inline-block;
+    width: 10%;
+}
+/*========================================================================================================================*/
+.forma{
+    display: inline-block;
+    width: 70%;
+    margin-left: 5px;
+}
+.forma input{
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+    width: 95%;
+    margin-bottom: 5px;
+    height: 30px;
+    margin-top: 5px;
+}
+.forma button{
+    border: none;
+    border-radius: 4px;
+    color: #00a046;
+    background: none;
+    margin-left: -18%;
+    font-size: 17px;
+    width: 20%;
+}
+/*========================================================================================================================*/
+.sidecart {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background: #ffffff;
+}
+.sidecart .closebtncart {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 28px;
+    margin-right: 50px;
+}
+.closebtncart{
+    color: #000000;
+}
+.korzina{
+    width: 10%;
+    display: inline-block;
+}
+.korzina span{
+    color: #ffffff;
+    font-size: 20px;
+}
+.myCart{
+    text-align: center;
+}
+/*===================== TOP HEADER FINISH=============================*/
+
+.top-slide{
+    margin: 10px;
+}
+.top-slide img{
+    width: 100%;
+    height: 190px;
+}
+/*===================== TOP SLIDER FINISH=============================*/
+
+.btn-catalog{
+    width: 95%;
+    margin: 5px 10px ;
+}
+.sign {
+    font-size: 13px;
+    color: #9999b0;
+    text-align: center;
+    background: #f7f7f7;
+    padding-bottom: 17px;
+}
+.auth-catalog{
+    margin-bottom: 17px;
+}
+.napomnit{
+    font-size: 13px;
+}
+.form-moda{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+form>input{
+    margin-bottom: 7px;
+}
+/*===================== MIDDLE CATALOG FINISH=============================*/
+.sidebar-logo{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.sidebar-logo a{
+    margin-right: -3px;
+    display: inline;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #31937c;
+    margin-left: -35px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.logotip{
+    background: #122538;
+    color: #ffffff;
+}
+.sidebar-auth a{
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: -20px;
+}
+.sidebar-auth a:hover{
+    color: #31937c;
+}
+.promokod{
+    background: #ffd44a;
+    height: 30px;
+}
+.promokod>a{
+    padding-left: 13px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 14px;
+}
+.promokod>a>span{
+    float: right;
+    padding-right: 5px;
+}
+.sidebar-li{
+    background: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 100%;
+}
+.sidebar-li a{
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+.sidebar-li>a>i{
+    margin-right: 8px;
+}
+/*===================== Sidebar FINISH=============================*/
+
+.popular-products{
+    margin: 10px;
+}
+.tovar{
+    width: 49%;
+    margin: auto ;
+    float: left;
+
+}
+.block-tovar{
+    display: table-cell;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 8px 8px 0;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    vertical-align: top;
+    font-family: 'Comfortaa', cursive;
+    height: 290px;
+}
+.block-tovar1{
+    display: table-cell;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 8px 8px 0;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    vertical-align: top;
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+    font-size: 14px;
+    color: black;
+}
+.block-tovar h6{
+    margin-top: 15px;
+    color: #31937c;
+    font-size: 13px;
+}
+.block-tovar p{
+    color: black;
+    margin-left: 4px;
+    margin-bottom: -1px;
+    font-size: 14px;
+}
+.tovar img{
+    width: 100%;
+    height: 180px;
+}
+/*===================== POPULAR PRODUCT FINISH=============================*/
+.footer-logo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*===================== FOOTER  FINISH=============================*/
+.clear{
+    clear: both;
+}
+.new-products{
+    margin: 10px;
+    clear: both;
+}
+
+.good2{
+    text-align: center;
+}
+.block-k{
+    margin: 5px 0;
+}
+.block-k a{
+    margin: 10px 0;
+    color: darkslategrey;
+}
+.products h4{
+    text-align: center;
+}
+.single-product span{
+    font-size: 15px;
+    margin: 5px 18px;
+}
+/*KORZINA COUNT*/
+.countcart{
+    font-size: 11px;
+    margin-left: 6%;
+    padding-top: 1px;
+    padding-left: 1.3%;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    background: red;
+    border-radius: 50%;
+    width: 4.9%;
+}
